@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b838a4f-0d7e-4ff5-92a2-91ff39ed5bdf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/DatingApp.API/Helpers/Extensions.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DatingApp/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DatingApp/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DatingApp/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DatingApp/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DatingApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DatingApp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/DatingApp/DesignTimeBuild/.dtbcache" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/DatingApp/DesignTimeBuild/.dtbcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/DatingApp/v15/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/DatingApp/v15/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/DatingApp/v15/Server/sqlite3/storage.ide-shm" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/DatingApp/v15/Server/sqlite3/storage.ide-shm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/DatingApp/v15/Server/sqlite3/storage.ide-wal" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/DatingApp/v15/Server/sqlite3/storage.ide-wal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatingApp.API/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatingApp.API/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatingApp.API/bin/Debug/netcoreapp2.2/DatingApp.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DatingApp.API/bin/Debug/netcoreapp2.2/DatingApp.API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatingApp.API/bin/Debug/netcoreapp2.2/DatingApp.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DatingApp.API/bin/Debug/netcoreapp2.2/DatingApp.API.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatingApp.API/obj/Debug/netcoreapp2.2/DatingApp.API.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DatingApp.API/obj/Debug/netcoreapp2.2/DatingApp.API.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatingApp.API/obj/Debug/netcoreapp2.2/DatingApp.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DatingApp.API/obj/Debug/netcoreapp2.2/DatingApp.API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatingApp.API/obj/Debug/netcoreapp2.2/DatingApp.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DatingApp.API/obj/Debug/netcoreapp2.2/DatingApp.API.pdb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +24,8 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/DatingApp.API/Data/DataContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DatingApp.API/Controllers/ValuesController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DatingApp.API/Helpers/Extensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DatingApp.API/Controllers/AuthController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DatingApp.API/Models/Value.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DatingApp.API/Startup.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -33,6 +37,7 @@
         <option value="$PROJECT_DIR$/DatingApp.API/Controllers/ValuesController.cs" />
         <option value="$PROJECT_DIR$/DatingApp.API/appsettings.json" />
         <option value="$PROJECT_DIR$/DatingApp.API/Startup.cs" />
+        <option value="$PROJECT_DIR$/DatingApp.API/Helpers/Extensions.cs" />
       </list>
     </option>
   </component>
@@ -102,7 +107,7 @@
       <option name="presentableId" value="Default" />
       <updated>1568480644715</updated>
       <workItem from="1568480647368" duration="7430000" />
-      <workItem from="1568569937883" duration="1246000" />
+      <workItem from="1568569937883" duration="1880000" />
     </task>
     <servers />
   </component>
