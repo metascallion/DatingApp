@@ -10,7 +10,7 @@ import {AlertifyService} from '../../_services/alertify.service';
 export class RegisterComponent implements OnInit {
   @Input() model: any = {};
   @Output() registerMode = new EventEmitter<boolean>();
-  constructor(private authService: AuthService, private alertify: AlertifyService) { }
+  constructor(public authService: AuthService, private alertify: AlertifyService) { }
 
   ngOnInit() {
   }
