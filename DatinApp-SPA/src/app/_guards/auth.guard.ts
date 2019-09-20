@@ -12,7 +12,8 @@ export class AuthGuard implements CanActivate {
    */
   constructor(private authService: AuthService, private router: Router, private alertify: AlertifyService) {}
 
-  canActivate(): boolean {
+  
+  canActivate():boolean {
     if (this.authService.loggedIn()) {
       return true;
     }
@@ -20,5 +21,5 @@ export class AuthGuard implements CanActivate {
     this.alertify.error('Computer sagt NEIN!!!');
     this.router.navigate(['/home']);
     return false;
-  }
+  } 
 }

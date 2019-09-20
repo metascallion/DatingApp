@@ -12,3 +12,17 @@ E:\Udemy\Demo\DatingApp\DatingApp.API\obj\Debug\netcoreapp2.2\DatingApp.API.Asse
 E:\Udemy\Demo\DatingApp\DatingApp.API\obj\Debug\netcoreapp2.2\DatingApp.API.RazorTargetAssemblyInfo.cache
 E:\Udemy\Demo\DatingApp\DatingApp.API\obj\Debug\netcoreapp2.2\DatingApp.API.dll
 E:\Udemy\Demo\DatingApp\DatingApp.API\obj\Debug\netcoreapp2.2\DatingApp.API.pdb
+D:\AngularCourse\DatingApp\DatingApp.API\bin\Debug\netcoreapp2.2\DatingApp.API.deps.json
+D:\AngularCourse\DatingApp\DatingApp.API\bin\Debug\netcoreapp2.2\DatingApp.API.runtimeconfig.json
+D:\AngularCourse\DatingApp\DatingApp.API\bin\Debug\netcoreapp2.2\DatingApp.API.runtimeconfig.dev.json
+D:\AngularCourse\DatingApp\DatingApp.API\bin\Debug\netcoreapp2.2\DatingApp.API.dll
+D:\AngularCourse\DatingApp\DatingApp.API\bin\Debug\netcoreapp2.2\DatingApp.API.pdb
+D:\AngularCourse\DatingApp\DatingApp.API\obj\Debug\netcoreapp2.2\DatingApp.API.csprojAssemblyReference.cache
+D:\AngularCourse\DatingApp\DatingApp.API\obj\Debug\netcoreapp2.2\DatingApp.API.csproj.CoreCompileInputs.cache
+D:\AngularCourse\DatingApp\DatingApp.API\obj\Debug\netcoreapp2.2\DatingApp.API.RazorAssemblyInfo.cache
+D:\AngularCourse\DatingApp\DatingApp.API\obj\Debug\netcoreapp2.2\DatingApp.API.RazorAssemblyInfo.cs
+D:\AngularCourse\DatingApp\DatingApp.API\obj\Debug\netcoreapp2.2\DatingApp.API.AssemblyInfoInputs.cache
+D:\AngularCourse\DatingApp\DatingApp.API\obj\Debug\netcoreapp2.2\DatingApp.API.AssemblyInfo.cs
+D:\AngularCourse\DatingApp\DatingApp.API\obj\Debug\netcoreapp2.2\DatingApp.API.RazorTargetAssemblyInfo.cache
+D:\AngularCourse\DatingApp\DatingApp.API\obj\Debug\netcoreapp2.2\DatingApp.API.dll
+D:\AngularCourse\DatingApp\DatingApp.API\obj\Debug\netcoreapp2.2\DatingApp.API.pdb
