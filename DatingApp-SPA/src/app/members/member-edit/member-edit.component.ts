@@ -41,4 +41,8 @@ export class MemberEditComponent implements OnInit {
         this.alertify.error('Failed updating the Profile!');
       });
   }
+
+  updateMainPhoto(photoUri) {
+    this.user.photoUri = photoUri;
+  }
 }

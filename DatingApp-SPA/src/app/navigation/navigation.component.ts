@@ -31,6 +31,9 @@ export class NavigationComponent implements OnInit {
 
   logout() {
     localStorage.removeItem('token');
+    localStorage.removeItem('user');
+    this.authService.decodedToken = null;
+    this.authService.currentUser = null;
     this.alertify.message('User logged out!');
     this.router.navigate(['/home']);
   }
