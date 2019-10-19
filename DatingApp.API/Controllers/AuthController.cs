@@ -10,6 +10,7 @@ using System.Text;
 using System;
 using System.IdentityModel.Tokens.Jwt;
 using AutoMapper;
+using System.Diagnostics;
 
 namespace DatingApp.API.Controllers
 {
@@ -35,7 +36,7 @@ namespace DatingApp.API.Controllers
             if (await _repository.UserExists(userForRegister.Username))
                 return BadRequest("User exists");
 
-            var userToCreate = new User { Username = userForRegister.Username };
+            var userToCreate = new User { Username = userForRegister.Username, KnownAs = userForRegister.KnownAs };
             var createdUser = await _repository.Register(userToCreate, userForRegister.Password);
 
             return StatusCode(201);
@@ -68,6 +69,8 @@ namespace DatingApp.API.Controllers
             var tokenHandler = new JwtSecurityTokenHandler();
             var token = tokenHandler.CreateToken(tokenDescriptor);
             var user = _mapper.Map<UserForListDto>(userFromRepo);
+            user.LastActive = DateTime.Now;
+            Debug.WriteLine($"Last Active: {user.LastActive}");
 
             return Ok(new
             {
