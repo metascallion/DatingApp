@@ -1,5 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 import { BsDropdownModule, TabsModule } from 'ngx-bootstrap';
@@ -7,6 +7,7 @@ import { RouterModule } from '@angular/router';
 import { JwtModule } from '@auth0/angular-jwt';
 import { NgxGalleryModule } from 'ngx-gallery';
 import { FileUploadModule } from 'ng2-file-upload';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
 import { ValueComponent } from './value/value.component';
@@ -27,6 +28,7 @@ import { MemberEditComponent } from './members/member-edit/member-edit.component
 import { MemberEditResolver } from './_resolvers/member-edit.resolver';
 import { PreventUnsavedChanges } from './_guards/prevent-unsafed-changes.guard';
 import { PhotoEditorComponent } from './members/photo-editor/photo-editor.component';
+import { BsDatepickerModule } from 'ngx-bootstrap/datepicker';
 
 export function tokenGetter() {
    return localStorage.getItem('token');
@@ -49,8 +51,11 @@ export function tokenGetter() {
    ],
    imports: [
       BrowserModule,
+      BrowserAnimationsModule,
+      BsDatepickerModule.forRoot(),
       HttpClientModule,
       FormsModule,
+      ReactiveFormsModule,
       BsDropdownModule.forRoot(),
       RouterModule.forRoot(appRoutes),
       NgxGalleryModule,
