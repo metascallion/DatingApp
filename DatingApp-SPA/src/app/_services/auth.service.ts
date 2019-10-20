@@ -21,6 +21,7 @@ export class AuthService {
 
   changeMemberPhoto(photoUrl: string) {
     this.photoUrl.next(photoUrl);
+    this.currentUser.photoUri = photoUrl;
   }
 
   login(model: any) {
@@ -38,8 +39,8 @@ export class AuthService {
     );
   }
 
-  register(model: any) {
-    return this.http.post(this.baseUrl + 'register', model);
+  register(user: User) {
+    return this.http.post(this.baseUrl + 'register', user);
   }
 
   loggedIn() {

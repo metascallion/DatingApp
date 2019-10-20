@@ -53,6 +53,11 @@ export class PhotoEditorComponent implements OnInit {
           uri: res.uri
         };
         this.photos.push(photo);
+        if (photo.isMain) {
+          this.authService.changeMemberPhoto(photo.uri);
+          this.authService.currentUser.photoUri = photo.uri;
+          localStorage.setItem('user', JSON.stringify(this.authService.currentUser));
+        }
       }
     };
   }
