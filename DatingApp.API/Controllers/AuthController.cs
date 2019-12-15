@@ -70,7 +70,7 @@ namespace DatingApp.API.Controllers
             var tokenHandler = new JwtSecurityTokenHandler();
             var token = tokenHandler.CreateToken(tokenDescriptor);
             var user = _mapper.Map<UserForListDto>(userFromRepo);
-            user.LastActive = DateTime.Now;
+
             Debug.WriteLine($"Last Active: {user.LastActive}");
 
             return Ok(new

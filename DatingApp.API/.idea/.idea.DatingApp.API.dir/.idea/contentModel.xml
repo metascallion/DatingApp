@@ -9,30 +9,52 @@
       <e p="bin" t="ExcludeRecursive" />
       <e p="Controllers" t="Include">
         <e p="AuthController.cs" t="Include" />
+        <e p="PhotosController.cs" t="Include" />
+        <e p="UsersController.cs" t="Include" />
         <e p="ValuesController.cs" t="Include" />
       </e>
       <e p="Data" t="Include">
         <e p="AuthRepository.cs" t="Include" />
         <e p="DataContext.cs" t="Include" />
+        <e p="DatingRepository.cs" t="Include" />
         <e p="IAuthRepository.cs" t="Include" />
+        <e p="IDatingRepository.cs" t="Include" />
+        <e p="UserSeedData.json" t="Include" />
       </e>
       <e p="DatingApp.API.csproj" t="IncludeRecursive" />
       <e p="DatingApp.db" t="Include" />
       <e p="Dtos" t="Include">
+        <e p="PhotoForCreationDto.cs" t="Include" />
+        <e p="PhotoForReturnDto.cs" t="Include" />
+        <e p="PhotosForDetailDto.cs" t="Include" />
+        <e p="UserForDetailDto.cs" t="Include" />
+        <e p="UserForListDto.cs" t="Include" />
         <e p="UserForLoginDto.cs" t="Include" />
         <e p="UserForRegisterDto.cs" t="Include" />
+        <e p="UserForUpdateDto.cs" t="Include" />
       </e>
       <e p="Helpers" t="Include">
+        <e p="AutoMapperProfile.cs" t="Include" />
+        <e p="CloudinarySettings.cs" t="Include" />
         <e p="Extensions.cs" t="Include" />
+        <e p="LogUserActivity.cs" t="Include" />
+        <e p="PagedList.cs" t="Include" />
+        <e p="PaginationHeader.cs" t="Include" />
+        <e p="UserParams.cs" t="Include" />
       </e>
       <e p="Migrations" t="Include">
         <e p="20190914192635_InitialCreate.cs" t="Include" />
         <e p="20190914192635_InitialCreate.Designer.cs" t="Include" />
         <e p="20190915104803_AddedUserEntity.cs" t="Include" />
         <e p="20190915104803_AddedUserEntity.Designer.cs" t="Include" />
+        <e p="20190918154635_ExtendedUserclass.cs" t="Include" />
+        <e p="20190918154635_ExtendedUserclass.Designer.cs" t="Include" />
+        <e p="20190921185517_AddedPublicId.cs" t="Include" />
+        <e p="20190921185517_AddedPublicId.Designer.cs" t="Include" />
         <e p="DataContextModelSnapshot.cs" t="Include" />
       </e>
       <e p="Models" t="Include">
+        <e p="Photo.cs" t="Include" />
         <e p="User.cs" t="Include" />
         <e p="Value.cs" t="Include" />
       </e>
@@ -48,6 +70,7 @@
       <e p="Properties" t="Include">
         <e p="launchSettings.json" t="Include" />
       </e>
+      <e p="Seed.cs" t="Include" />
       <e p="Startup.cs" t="Include" />
     </e>
   </component>

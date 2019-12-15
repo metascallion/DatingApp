@@ -4,6 +4,7 @@ import { UserService } from 'src/app/_services/user.service';
 import { AlertifyService } from 'src/app/_services/alertify.service';
 import { ActivatedRoute } from '@angular/router';
 import { NgxGalleryOptions, NgxGalleryImage, NgxGalleryAnimation } from 'ngx-gallery';
+import {TimeAgoPipe} from 'time-ago-pipe';
 
 @Component({
   selector: 'app-member-detail',

@@ -23,6 +23,8 @@ namespace DatingApp.API.Data
             if(!VerifyPasswordHash(password, user.PasswordHash, user.PasswordSalt))
                 return null;
 
+            await _context.SaveChangesAsync();
+
             return user;
         }
 

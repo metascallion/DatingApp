@@ -7,6 +7,7 @@
     "outputPath": "E:\\Udemy\\Demo\\DatingApp\\DatingApp.API\\obj\\",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
+      "C:\\Microsoft\\Xamarin\\NuGet",
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
     ],
     "originalTargetFrameworks": [
@@ -30,6 +31,14 @@
   "frameworks": {
     "netcoreapp2.2": {
       "dependencies": {
+        "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+          "target": "Package",
+          "version": "[7.0.0, )"
+        },
+        "CloudinaryDotNet": {
+          "target": "Package",
+          "version": "[1.8.0, )"
+        },
         "Microsoft.AspNetCore.App": {
           "suppressParent": "All",
           "target": "Package",
@@ -53,7 +62,12 @@
         }
       },
       "imports": [
-        "net461"
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
       ],
       "assetTargetFallback": true,
       "warn": true
