@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\sasch\.Rider2019.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\sasch\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_.19.00" t="ExcludeRecursive" />
-    <e p="E:\Udemy\Demo\DatingApp\DatingApp.API" t="IncludeRecursive">
-      <e p="appsettings.Development.json" t="Include" />
+    <e p="C:\Users\sschwarzlose\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\sschwarzlose\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_.19.00" t="ExcludeRecursive" />
+    <e p="D:\AngularCourse\DatingApp\DatingApp.API" t="IncludeRecursive">
       <e p="appsettings.json" t="Include" />
       <e p="bin" t="ExcludeRecursive" />
       <e p="Controllers" t="Include">
@@ -54,6 +53,7 @@
         <e p="DataContextModelSnapshot.cs" t="Include" />
       </e>
       <e p="Models" t="Include">
+        <e p="Like.cs" t="Include" />
         <e p="Photo.cs" t="Include" />
         <e p="User.cs" t="Include" />
         <e p="Value.cs" t="Include" />

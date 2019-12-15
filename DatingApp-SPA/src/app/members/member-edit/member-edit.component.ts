@@ -17,7 +17,7 @@ export class MemberEditComponent implements OnInit {
   @ViewChild('editForm') editForm: NgForm;
   @HostListener('window:beforeunload', ['$event'])
   unloadNotification($event: any) {
-    if(this.editForm.dirty) {
+    if (this.editForm.dirty) {
       $event.returnValue = true;
     }
   }
@@ -34,8 +34,9 @@ export class MemberEditComponent implements OnInit {
     this.authService.currentPhotoUrl.subscribe(photoUrl => this.photoUrl = photoUrl);
   }
 
-  onGenderChange(newGender:string) {
-    this.user.gender = newGender;
+  onGenderChange(event: any) {
+    const newGender = event.toString().toLowerCase();
+    this.user.gender = newGender.toLowerCase();
   }
 
   updateProfile() {

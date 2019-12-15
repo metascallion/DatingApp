@@ -55,8 +55,8 @@
                   <textarea name="knownAs" rows="1" class="form-control" [(ngModel)]="user.knownAs"></textarea>
                   <h4>Gender</h4>
                   <select name="genderselect" [(ngModel)]="user.gender">
-                    <option>Male</option>
-                    <option>Female</option>
+                    <option>male</option>
+                    <option>female</option>
                   </select>
                   <h4>Description</h4>
                   <textarea name="introduction" rows="6" class="form-control" [(ngModel)]="user.introduction"></textarea>
@@ -72,7 +72,7 @@
                     <input class="form-control" type="text" name="country" [(ngModel)]="user.country">
                   </div>
               </form>
-              
+
             </tab>
             <tab heading="Edit Photos">
               <app-photo-editor [photos]="user.photos" (getMemberPhotoChange)="updateMainPhoto($event)"></app-photo-editor>

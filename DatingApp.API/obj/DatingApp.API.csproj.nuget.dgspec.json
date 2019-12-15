@@ -1,32 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Udemy\\Demo\\DatingApp\\DatingApp.API\\DatingApp.API.csproj": {}
+    "D:\\AngularCourse\\DatingApp\\DatingApp.API\\DatingApp.API.csproj": {}
   },
   "projects": {
-    "E:\\Udemy\\Demo\\DatingApp\\DatingApp.API\\DatingApp.API.csproj": {
+    "D:\\AngularCourse\\DatingApp\\DatingApp.API\\DatingApp.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Udemy\\Demo\\DatingApp\\DatingApp.API\\DatingApp.API.csproj",
+        "projectUniqueName": "D:\\AngularCourse\\DatingApp\\DatingApp.API\\DatingApp.API.csproj",
         "projectName": "DatingApp.API",
-        "projectPath": "E:\\Udemy\\Demo\\DatingApp\\DatingApp.API\\DatingApp.API.csproj",
-        "packagesPath": "C:\\Users\\sasch\\.nuget\\packages\\",
-        "outputPath": "E:\\Udemy\\Demo\\DatingApp\\DatingApp.API\\obj\\",
+        "projectPath": "D:\\AngularCourse\\DatingApp\\DatingApp.API\\DatingApp.API.csproj",
+        "packagesPath": "C:\\Users\\sschwarzlose\\.nuget\\packages\\",
+        "outputPath": "D:\\AngularCourse\\DatingApp\\DatingApp.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\sasch\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\sschwarzlose\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://proget.softfair-local.de:81/nuget/nuget-softfair/": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -74,12 +73,7 @@
             }
           },
           "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
+            "net461"
           ],
           "assetTargetFallback": true,
           "warn": true
