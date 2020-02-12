@@ -15,8 +15,4 @@ export class ListCardComponent implements OnInit {
 
   ngOnInit() {
   }
-
-  navigateTo() {
-    this.router.navigate(this.title)
-  }
 }

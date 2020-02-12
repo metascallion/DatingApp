@@ -3,7 +3,6 @@ E:\Udemy\Demo\DatingApp\DatingApp.API\bin\Debug\netcoreapp2.2\DatingApp.API.runt
 E:\Udemy\Demo\DatingApp\DatingApp.API\bin\Debug\netcoreapp2.2\DatingApp.API.runtimeconfig.dev.json
 E:\Udemy\Demo\DatingApp\DatingApp.API\bin\Debug\netcoreapp2.2\DatingApp.API.dll
 E:\Udemy\Demo\DatingApp\DatingApp.API\bin\Debug\netcoreapp2.2\DatingApp.API.pdb
-E:\Udemy\Demo\DatingApp\DatingApp.API\obj\Debug\netcoreapp2.2\DatingApp.API.csprojAssemblyReference.cache
 E:\Udemy\Demo\DatingApp\DatingApp.API\obj\Debug\netcoreapp2.2\DatingApp.API.RazorAssemblyInfo.cache
 E:\Udemy\Demo\DatingApp\DatingApp.API\obj\Debug\netcoreapp2.2\DatingApp.API.RazorAssemblyInfo.cs
 E:\Udemy\Demo\DatingApp\DatingApp.API\obj\Debug\netcoreapp2.2\DatingApp.API.AssemblyInfoInputs.cache
@@ -29,3 +28,4 @@ E:\Udemy\Demo\DatingApp\DatingApp.API\bin\Debug\netcoreapp2.2\appsettings.Develo
 E:\Udemy\Demo\DatingApp\DatingApp.API\bin\Debug\netcoreapp2.2\appsettings.json
 E:\Udemy\Demo\DatingApp\DatingApp.API\bin\Debug\netcoreapp2.2\Data\UserSeedData.json
 E:\Udemy\Demo\DatingApp\DatingApp.API\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+E:\Udemy\Demo\DatingApp\Datingapp.API\obj\Debug\netcoreapp2.2\DatingApp.API.csprojAssemblyReference.cache
