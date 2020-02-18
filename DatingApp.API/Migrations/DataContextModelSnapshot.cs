@@ -42,11 +42,11 @@ namespace DatingApp.API.Migrations
 
                     b.Property<DateTime>("MessageSent");
 
-                    b.Property<DateTime>("RecipientDeleted");
+                    b.Property<bool>("RecipientDeleted");
 
                     b.Property<int>("RecipientId");
 
-                    b.Property<DateTime>("SenderDeleted");
+                    b.Property<bool>("SenderDeleted");
 
                     b.Property<int>("SenderId");
 

@@ -6,6 +6,7 @@ import { ActivatedRoute } from '@angular/router';
 import { NgxGalleryOptions, NgxGalleryImage, NgxGalleryAnimation } from 'ngx-gallery';
 import {TimeAgoPipe} from 'time-ago-pipe';
 import { TabsetComponent } from 'ngx-bootstrap';
+import {AuthService} from '../../_services/auth.service';
 
 @Component({
   selector: 'app-member-detail',
@@ -19,7 +20,7 @@ export class MemberDetailComponent implements OnInit {
   galleryOptions: NgxGalleryOptions[];
   galleryImages: NgxGalleryImage[];
 
-  constructor(private userService: UserService, private alertify: AlertifyService, private route: ActivatedRoute) { }
+  constructor(private userService: UserService, private authService: AuthService, private alertify: AlertifyService, private route: ActivatedRoute) { }
 
   ngOnInit() {
     this.route.data.subscribe(data => {
@@ -28,7 +29,7 @@ export class MemberDetailComponent implements OnInit {
 
     this.route.queryParams.subscribe(params => {
       const selectedTab = params.tab;
-      this.memberTabs.tabs[selectedTab > 0 ? selectedTab : 0].active = true; 
+      this.memberTabs.tabs[selectedTab > 0 ? selectedTab : 0].active = true;
     })
 
     this.galleryOptions = [

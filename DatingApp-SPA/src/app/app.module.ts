@@ -19,6 +19,7 @@ import { RegisterComponent } from './home/register/register.component';
 import { ErrorInterceptorProvider } from './_services/error.interceptor';
 import { MemberListComponent } from './members/member-list/member-list.component';
 import { ListsComponent } from './lists/lists.component';
+import {ListCardComponent} from './lists/list-card/list-card.component';
 import { MessagesComponent } from './messages/messages.component';
 import { appRoutes } from './routes';
 import { MemberCardComponent } from './members/member-card/member-card.component';
@@ -48,6 +49,7 @@ export function tokenGetter() {
       RegisterComponent,
       MemberListComponent,
       ListsComponent,
+     ListCardComponent,
       MessagesComponent,
       MemberCardComponent,
       MemberDetailComponent,

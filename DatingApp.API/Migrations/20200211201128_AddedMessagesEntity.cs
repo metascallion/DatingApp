@@ -1,4 +1,5 @@
 ﻿using System;
+using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace DatingApp.API.Migrations
@@ -12,6 +13,7 @@ namespace DatingApp.API.Migrations
                 columns: table => new
                 {
                     Id = table.Column<int>(nullable: false)
+                        .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn)
                         .Annotation("Sqlite:Autoincrement", true),
                     SenderId = table.Column<int>(nullable: false),
                     RecipientId = table.Column<int>(nullable: false),
@@ -19,8 +21,8 @@ namespace DatingApp.API.Migrations
                     IsRead = table.Column<bool>(nullable: false),
                     DateRead = table.Column<DateTime>(nullable: true),
                     MessageSent = table.Column<DateTime>(nullable: false),
-                    SenderDeleted = table.Column<DateTime>(nullable: false),
-                    RecipientDeleted = table.Column<DateTime>(nullable: false)
+                    SenderDeleted = table.Column<bool>(nullable: false),
+                    RecipientDeleted = table.Column<bool>(nullable: false)
                 },
                 constraints: table =>
                 {

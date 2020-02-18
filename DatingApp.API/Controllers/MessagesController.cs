@@ -99,5 +99,48 @@ namespace DatingApp.API.Controllers
             return Ok(messageThread);
         }
 
+        [HttpPost("{id}")]
+        public async Task<IActionResult> DeleteMessage(int id, int userId)
+        {
+            if (userId != int.Parse(User.FindFirst(ClaimTypes.NameIdentifier).Value))
+                return Unauthorized();
+
+            var messageFromRepo = await repo.GetMessage(id);
+
+            if (messageFromRepo.SenderId == userId)
+                messageFromRepo.SenderDeleted = true;
+
+            if (messageFromRepo.RecipientId == userId)
+                messageFromRepo.RecipientDeleted = true;
+
+            if (messageFromRepo.RecipientDeleted && messageFromRepo.SenderDeleted)
+                repo.Delete(messageFromRepo);
+
+            if (await repo.SaveAll())
+                return NoContent();
+
+            throw new Exception("Error deleting the message");
+        }
+
+        [HttpPost("{id}/read")]
+        public async Task<IActionResult> MarkMessageAsRead(int userId, int id)
+        {
+            if (userId != int.Parse(User.FindFirst(ClaimTypes.NameIdentifier).Value))
+                return Unauthorized();
+
+            var message = await repo.GetMessage(id);
+
+            if (message.RecipientId != userId)
+            {
+                return Unauthorized();
+            }
+
+            message.IsRead = true;
+            message.DateRead = DateTime.Now;
+
+            await repo.SaveAll();
+
+            return NoContent();
+        }
     }
 }

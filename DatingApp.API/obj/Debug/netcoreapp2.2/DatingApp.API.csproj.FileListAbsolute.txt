@@ -28,4 +28,4 @@ E:\Udemy\Demo\DatingApp\DatingApp.API\bin\Debug\netcoreapp2.2\appsettings.Develo
 E:\Udemy\Demo\DatingApp\DatingApp.API\bin\Debug\netcoreapp2.2\appsettings.json
 E:\Udemy\Demo\DatingApp\DatingApp.API\bin\Debug\netcoreapp2.2\Data\UserSeedData.json
 E:\Udemy\Demo\DatingApp\DatingApp.API\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
-E:\Udemy\Demo\DatingApp\Datingapp.API\obj\Debug\netcoreapp2.2\DatingApp.API.csprojAssemblyReference.cache
+E:\Udemy\Demo\DatingApp\DatingApp.API\obj\Debug\netcoreapp2.2\DatingApp.API.csprojAssemblyReference.cache

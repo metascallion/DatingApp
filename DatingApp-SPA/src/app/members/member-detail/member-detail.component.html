@@ -23,7 +23,7 @@
               <strong>Member Since:</strong>
               <p> {{ user.created | date: 'dd. MMM yyyy' }} </p>
             </div>
-            
+
           </div>
           <div class="card-footer">
             <div class="btn-group d-flex">
@@ -50,11 +50,10 @@
               <ngx-gallery [options]="galleryOptions" [images]="galleryImages"></ngx-gallery>
             </tab>
             <tab heading="Messages">
-              <app-member-messages [recipientId]="user.id"></app-member-messages> 
+              <app-member-messages [recipientId]="user.id"></app-member-messages>
             </tab>
           </tabset>
         </div>
       </div>
     </div>
   </div>
-  
