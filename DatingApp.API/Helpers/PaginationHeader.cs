@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Rewrite.Internal.UrlActions;
+using Microsoft.AspNetCore.Rewrite;
 
 namespace DatingApp.API.Helpers
 {
