@@ -1,2 +1,6 @@
 /DatingApp.API/appsettings.Development.json
 /DatingApp.API/wwwroot
+
+DatingApp.API/obj/
+
+DatingApp.API/bin/
