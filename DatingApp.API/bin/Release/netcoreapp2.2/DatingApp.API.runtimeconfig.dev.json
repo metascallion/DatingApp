@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
@@ -7,4 +8,14 @@
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
     ]
   }
+=======
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\sschwarzlose\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\sschwarzlose\\.nuget\\packages",
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ]
+  }
+>>>>>>> Stashed changes
 }

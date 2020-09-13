@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { SignalrService } from '../connector/_services/signalr.service';
 
 @Component({
   selector: 'app-home',
@@ -7,14 +6,10 @@ import { SignalrService } from '../connector/_services/signalr.service';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-  registerMode = false;
 
   constructor() { }
 
   ngOnInit() {
   }
 
-  registerToggle() {
-    this.registerMode = !this.registerMode;
-  }
 }

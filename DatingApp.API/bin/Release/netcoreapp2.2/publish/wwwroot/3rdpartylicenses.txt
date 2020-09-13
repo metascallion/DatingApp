@@ -792,6 +792,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 
+<<<<<<< Updated upstream
 ngx-bootstrap
 MIT
 The MIT License (MIT)
@@ -819,6 +820,8 @@ SOFTWARE.
 
 
 
+=======
+>>>>>>> Stashed changes
 ngx-bootstrap/buttons
 
 ngx-bootstrap/chronos
@@ -1123,6 +1126,7 @@ Apache-2.0
  
 
 
+<<<<<<< Updated upstream
 time-ago-pipe
 MIT
 MIT License
@@ -1148,6 +1152,8 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 
+=======
+>>>>>>> Stashed changes
 tslib
 Apache-2.0
 Apache License
