@@ -19,8 +19,8 @@ namespace DatingApp.API.Controllers
             this._context = context;
         }
         // GET api/values
+        [Authorize(Roles="Admin")]
         [HttpGet]
-        [Authorize]
         public async Task<IActionResult> GetValues()
         {
             //var values = _context.Values.ToList();
@@ -29,6 +29,7 @@ namespace DatingApp.API.Controllers
         }
 
         // GET api/values/5
+        [Authorize(Roles="Member")]
         [HttpGet("{id}")]
         public async Task<IActionResult> GeValue(int id)
         {

@@ -16,7 +16,7 @@
           <div class="card-body">
             <div>
               <strong>Name:</strong>
-              <p> {{ user?.username }} </p>
+              <p> {{ user?.userName }} </p>
             </div>
             <div>
               <strong>Gender:</strong>
@@ -50,7 +50,7 @@
             <tab heading="Edit Profile">
               <form #editForm="ngForm" id="editForm" (ngSubmit)="updateProfile()">
                   <h4>Username</h4>
-                  <textarea name="username" rows="1" class="form-control" [(ngModel)]="user.username"></textarea>
+                  <textarea name="username" rows="1" class="form-control" [(ngModel)]="user.userName"></textarea>
                   <h4>Known As</h4>
                   <textarea name="knownAs" rows="1" class="form-control" [(ngModel)]="user.knownAs"></textarea>
                   <h4>Gender</h4>

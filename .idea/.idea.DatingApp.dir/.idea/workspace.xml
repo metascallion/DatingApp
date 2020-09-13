@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="77f911f3-22e3-4ba9-8cd7-0d99b2e07f96" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.DatingApp/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/config/applicationhost.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatingApp.API/Migrations/20200913121118_IdentityInitial.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatingApp.API/Migrations/20200913121118_IdentityInitial.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatingApp.API/Models/Role.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatingApp.API/Models/UserRole.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DatingApp/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DatingApp/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DatingApp/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DatingApp/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DatingApp/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DatingApp/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DatingApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DatingApp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatingApp.API/Controllers/AuthController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatingApp.API/Controllers/AuthController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatingApp.API/Controllers/FallbackController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatingApp.API/Controllers/FallbackController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatingApp.API/Controllers/MessagesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatingApp.API/Controllers/MessagesController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatingApp.API/Controllers/PhotosController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatingApp.API/Controllers/PhotosController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatingApp.API/Controllers/UsersController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatingApp.API/Controllers/UsersController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatingApp.API/Controllers/ValuesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatingApp.API/Controllers/ValuesController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatingApp.API/Data/AuthRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatingApp.API/Data/AuthRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatingApp.API/Data/DataContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatingApp.API/Data/DataContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatingApp.API/DatingApp.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DatingApp.API/DatingApp.API.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatingApp.API/DatingApp.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatingApp.API/Migrations/20190914192635_InitialCreate.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatingApp.API/Migrations/20190914192635_InitialCreate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatingApp.API/Migrations/20190915104803_AddedUserEntity.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatingApp.API/Migrations/20190915104803_AddedUserEntity.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatingApp.API/Migrations/20190918154635_ExtendedUserclass.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatingApp.API/Migrations/20190918154635_ExtendedUserclass.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatingApp.API/Migrations/20190921185517_AddedPublicId.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatingApp.API/Migrations/20190921185517_AddedPublicId.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatingApp.API/Migrations/20200211160354_AddedLikeEntity.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatingApp.API/Migrations/20200211160354_AddedLikeEntity.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatingApp.API/Migrations/20200211201128_AddedMessagesEntity.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatingApp.API/Migrations/20200211201128_AddedMessagesEntity.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatingApp.API/Migrations/DataContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatingApp.API/Migrations/DataContextModelSnapshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatingApp.API/Models/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatingApp.API/Models/User.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatingApp.API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatingApp.API/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatingApp.API/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/DatingApp.API/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatingApp.API/Seed.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatingApp.API/Seed.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatingApp.API/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatingApp.API/Startup.cs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1hSMLaHa1zNq05diviyG1T6otj4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="77f911f3-22e3-4ba9-8cd7-0d99b2e07f96" name="Default Changelist" comment="" />
+      <created>1599999985641</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599999985641</updated>
+      <workItem from="1599999990192" duration="5000" />
+    </task>
+    <servers />
+  </component>
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>

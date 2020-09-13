@@ -1,8 +1,12 @@
 ﻿using System;
+using System.Reflection;
 using DatingApp.API.Data;
+using DatingApp.API.Models;
 using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
@@ -22,8 +26,10 @@ namespace DatingApp.API
                 try
                 {
                     var context = services.GetRequiredService<DataContext>();
+                    var userManager = services.GetRequiredService<UserManager<User>>();
+                    var roleManager = services.GetRequiredService<RoleManager<Role>>();
                     context.Database.Migrate();
-                    Seed.SeedUsers(context);
+                    Seed.SeedUsers(userManager, roleManager);
                 }
                 catch(Exception e) 
                 {
@@ -35,10 +41,31 @@ namespace DatingApp.API
 
             host.Run();
         }
-
+        
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args).ConfigureWebHostDefaults(webBuilder =>
-           {
+            {
+                webBuilder.ConfigureAppConfiguration((context, config) =>
+                {
+                    var env = context.HostingEnvironment;
+                    config.AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
+                        .AddJsonFile($"appsettings.{env.EnvironmentName}.json", optional: true, reloadOnChange: true);
+
+                    if (env.IsDevelopment())
+                    {
+                        var appAssembly = Assembly.Load(new AssemblyName(env.ApplicationName));
+                        if (appAssembly != null)
+                        {
+                            config.AddUserSecrets(appAssembly, optional: true);
+                        }
+                    }
+
+                    config.AddEnvironmentVariables();
+                    if (args != null)
+                    {
+                        config.AddCommandLine(args);
+                    }
+                });
                webBuilder.UseStartup<Startup>();
            });
     }
