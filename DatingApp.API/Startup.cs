@@ -36,13 +36,15 @@ namespace DatingApp.API
         public void ConfigureDevelopmentServices(IServiceCollection services)
         {
             services.AddDbContext<DataContext>(c => c.UseSqlite(Configuration.GetConnectionString("DefaultConnection")));
-            
+
             ConfigureServices(services);
         }
 
         public void ConfigureProductionServices(IServiceCollection services)
         {
             services.AddDbContext<DataContext>(c => c.UseMySql(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddDbContext<DataContext>(c =>
+                c.UseNpgsql(Configuration.GetConnectionString("DefaultConnection")));
 
             ConfigureServices(services);
         }
@@ -112,7 +114,7 @@ namespace DatingApp.API
             app.UseAuthorization();
 
             app.UseCors(x => x.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());
-            
+
             app.UseDefaultFiles();
             app.UseStaticFiles();
 
